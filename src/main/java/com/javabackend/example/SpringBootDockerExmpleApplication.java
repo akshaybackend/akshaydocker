@@ -11,7 +11,7 @@ public class SpringBootDockerExmpleApplication {
 
     @GetMapping("/hello")
     public String message(){
-        return "Hello from docker now changes test";
+        return "Hello from docker now changes test !";
     }
 
 	public static void main(String[] args) {
